@@ -1,12 +1,16 @@
 {
-  "name": "labo-string",
+  "name": "ssgs-labo-02-jack",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "CLI Node.js per la manipolazione di stringhe",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Jack-codice27",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
